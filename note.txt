@@ -1,0 +1,3 @@
+I. Các chức năng của admin
+    1. Thêm xóa sửa menu
+    2. Thêm xóa sửa dịch vụ và chi tiết của từng dịch vụ

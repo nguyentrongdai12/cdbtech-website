@@ -65,51 +65,7 @@
           <h3 class="section-title">Dịch vụ</h3>
           <p class="section-description">CDB TECH cung cấp những dịch vụ liên quan đến lĩnh vực CNTT</p>
         </div>
-        <div class="row">
-          <div class="col-lg-4 col-md-6" data-aos="zoom-in">
-            <div class="box">
-              <div class="icon"><a href=""><i class="bi bi-calendar-check-fill"></i></a></div>
-              <h4 class="title"><a href="index.php?pages=it-support">Dịch vụ IT Support</a></h4>
-              <p class="description">Cung cấp dịch vụ IT Support Outsource với 3 loại hình: Online, Onsite, bán Onsite. Với tư cách như một phòng IT thực thụ tại khách hàng</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6" data-aos="zoom-in">
-            <div class="box">
-              <div class="icon"><a href=""><i class="bi bi-hdd-stack-fill"></i></a></div>
-              <h4 class="title"><a href="">Máy chủ - Server</a></h4>
-              <p class="description">Cung cấp dịch vụ quản trị máy chủ, cung cấp máy chủ, thiết bị, linh kiện chính hãng, giải pháp nâng cấp, vạn hành, thi công hệ thống</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6" data-aos="zoom-in">
-            <div class="box">
-              <div class="icon"><a href=""><i class="bi bi-hdd-network"></i></a></div>
-              <h4 class="title"><a href="">Hệ thống mạng - Network</a></h4>
-              <p class="description">Cung cấp dịch vụ quản trị hệ thống mạng, giải pháp nâng cấp, sửa chữa, cung cấp linh kiện, thiết bị, thi công hệ thống mạng cho doanh nghiệp</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6" data-aos="zoom-in">
-            <div class="box">
-              <div class="icon"><a href=""><i class="bi bi-envelope-at-fill"></i></a></div>
-              <h4 class="title"><a href="">Email - Server</a></h4>
-              <p class="description">Cung cấp dịch vụ giám sát, quản lý, vận hành hệ thống Email với các đối tác cung cấp như: PA, Mắt Bão, Mail google Workspae, Microsoft</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6" data-aos="zoom-in">
-            <div class="box">
-              <div class="icon"><a href=""><i class="bi bi-link"></i></a></div>
-              <h4 class="title"><a href="">Tên miền - Hosting</a></h4>
-              <p class="description">Cung cấp tên miền, bản khai tên miền chuẩn VNNIC, cung cáp hosting vận hành Website, dịch vụ backup và vận hành</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6" data-aos="zoom-in">
-            <div class="box">
-              <div class="icon"><a href=""><i class="bi bi-droplet-half"></i></a></div>
-              <h4 class="title"><a href="">Thiết kế Website</a></h4>
-              <p class="description">Thiết kế Website đa dạng lĩnh vực: Giới thiệu DN, bán hàng, tin tức, giáo dục ... Với các nền tảng lớn: Wordpress, Joomla, Laravel, PHP, HTML</p>
-            </div>
-          </div>
-        </div>
+        <?php include "./models/list_services.php"; ?>
 
       </div>
     </section><!-- End Services Section -->
