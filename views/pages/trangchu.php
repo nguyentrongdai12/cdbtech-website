@@ -1,7 +1,3 @@
- <?php
-  include('header.php');
-?>
-
   <!-- ======= Hero Section ======= -->
   <section id="hero">
     <div class="hero-container" data-aos="zoom-in" data-aos-delay="100">
@@ -62,41 +58,6 @@
 
       </div>
     </section><!-- End About Section -->
-
-    <!-- ======= Facts Section ======= -->
-    <section id="facts">
-      <div class="container" data-aos="fade-up">
-        <div class="section-header">
-          <h3 class="section-title">Sự kiện</h3>
-          <p class="section-description">Những sự kiện mà CDB TECH đã trải qua, nho nhoi những vô cùng ý nghĩa</p>
-        </div>
-        <div class="row counters">
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="11" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Khách hàng thân thiết</p>
-          </div>
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="134" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Dự án, giải pháp đã triển khai</p>
-          </div>
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Giờ làm việc</p>
-          </div>
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Nhân sự</p>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Facts Section -->
-
     <!-- ======= Services Section ======= -->
     <section id="services">
       <div class="container" data-aos="fade-up">
@@ -108,7 +69,7 @@
           <div class="col-lg-4 col-md-6" data-aos="zoom-in">
             <div class="box">
               <div class="icon"><a href=""><i class="bi bi-calendar-check-fill"></i></a></div>
-              <h4 class="title"><a href="it-support.php">Dịch vụ IT Support</a></h4>
+              <h4 class="title"><a href="index.php?pages=it-support">Dịch vụ IT Support</a></h4>
               <p class="description">Cung cấp dịch vụ IT Support Outsource với 3 loại hình: Online, Onsite, bán Onsite. Với tư cách như một phòng IT thực thụ tại khách hàng</p>
             </div>
           </div>
@@ -402,7 +363,3 @@
     </section><!-- End Contact Section -->
 
   </main><!-- End #main -->
-
-<?php
-  include('footer.php');
- ?>

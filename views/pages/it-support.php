@@ -1,5 +1,3 @@
-<?php include('header.php'); ?>
-
   <!-- ======= Hero Section ======= -->
   <section id="hero">
     <div class="hero-container" data-aos="zoom-in" data-aos-delay="100">
@@ -88,4 +86,3 @@
     </section><!-- End Portfolio Details Section -->
 
   </main><!-- End #main -->
-<?php  include('footer.php'); ?>
