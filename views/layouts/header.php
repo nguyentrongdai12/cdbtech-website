@@ -10,7 +10,7 @@
         <!-- Uncomment below if you prefer to use a text logo -->
         <!--<h1><a href="index.html">Regna</a></h1>-->
       </div>
-    
+    <?php include "./models/loadmenu.php"; ?>
    
     </div>
   </header><!-- End Header -->
