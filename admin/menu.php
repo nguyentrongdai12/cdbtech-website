@@ -16,15 +16,15 @@
         <form class="user" action="action_menu.php" method="post">
             <div class="form-group row">
                 <div class="col-sm-2 mb-3 mb-sm-0">                    
-                    <input type="number" class="form-control form-control-user" id="exampleFirstName" name="autoid"
+                    <input type="number" class="form-control " id="exampleFirstName" name="autoid"
                         placeholder="Thứ tự" required="">
                 </div>
                 <div class="col-sm-2">
-                    <input type="text" class="form-control form-control-user" id="exampleLastName" name="name"
+                    <input type="text" class="form-control " id="exampleLastName" name="name"
                         placeholder="Tên hiển thị" required="">
                 </div>
                 <div class="col-sm-6">
-                    <input type="text" class="form-control form-control-user" id="exampleLink" name="link"
+                    <input type="text" class="form-control " id="exampleLink" name="link"
                         placeholder="Liên kết" required="">
                 </div>
                 <div class="col-sm-2">

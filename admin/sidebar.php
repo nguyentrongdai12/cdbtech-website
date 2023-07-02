@@ -44,7 +44,7 @@
     <div id="collapseservices" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
         <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Dịch vụ:</h6>
-            <a class="collapse-item" href="index.php?pages=services">Tất cả dịch vụ</a>
+            <a class="collapse-item" href="index.php?pages=services_all">Tất cả dịch vụ</a>
         </div>
     </div>
 </li>
