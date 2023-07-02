@@ -30,5 +30,14 @@
             $result = mysqli_query($this->__conn, $sql);
             return $result;
         }
+        function query($query)
+        {
+            $this->connect();
+            if ($this->__conn->query($query) === TRUE) {
+                return TRUE;
+            } else {
+                return FALSE;
+            }    
+        }
     }
 ?>

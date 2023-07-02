@@ -3,7 +3,6 @@
     <div class="hero-container" data-aos="zoom-in" data-aos-delay="100">
       <h1>CDB TECH xin chào</h1>
       <h2>Cảm ơn vì đã ghé thăm, hãy xem qua thông tin của CDB TECH</h2>
-      <a href="#about" class="btn-get-started">Thông tin thêm</a>
     </div>
   </section><!-- End Hero Section -->
 

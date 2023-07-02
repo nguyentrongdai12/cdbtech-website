@@ -10,7 +10,7 @@
         //echo "SELECT * FROM users WHERE acc = '".$email."' AND pwd = '".MD5($password)."'";
         if (mysqli_num_rows($rslogins) > 0)
         {
-            setcookie("login", $email, time()+3600, "/","", 0);
+            setcookie("login", $email, time()+28800, "/","", 0);
             header("Location: index.php");           
         } 
         else {

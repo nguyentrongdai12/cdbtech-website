@@ -1,4 +1,5 @@
 <?php
+  include_once("controllers/config.php");
   include_once("controllers/dbclass.php");
   include_once "views/layouts/head.php";
   include_once('views/layouts/header.php');

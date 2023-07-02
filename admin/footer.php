@@ -30,11 +30,29 @@
 
     <!-- Page level plugins -->
     <script src="vendor/chart.js/Chart.min.js"></script>
-
+    <!-- Page level plugins -->
+    <script src="vendor/datatables/jquery.dataTables.min.js"></script>
+    <script src="vendor/datatables/dataTables.bootstrap4.min.js"></script>
     <!-- Page level custom scripts -->
     <script src="js/demo/chart-area-demo.js"></script>
     <script src="js/demo/chart-pie-demo.js"></script>
-
+    <!-- Page level custom scripts -->
+    <script src="js/demo/datatables-demo.js"></script>
+    <script>
+        $('#editmenu').on('show.bs.modal', function (event) {
+        var a = $(event.relatedTarget) // Button that triggered the modal
+        var autoid = a.data('autoid') // Extract info from data-* attributes
+        var name = a.data('name')
+        var link = a.data('link')
+        // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+        // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+        var modal = $(this)
+        modal.find('.modal-body #autoid_old').val(autoid)
+        modal.find('.modal-body #autoid').val(autoid)
+        modal.find('.modal-body #name').val(name)
+        modal.find('.modal-body #link').val(link)
+        })
+    </script>
 </body>
 
 </html>

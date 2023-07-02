@@ -43,3 +43,5 @@
             <li class="nav-item no-arrow"><a class="nav-link dropdown-toggle" href="login_controller.php?status=logout">Đăng xuất</a></li>
         </ul>
     </nav>
+                   <!-- Begin Page Content -->
+                   <div class="container-fluid">
